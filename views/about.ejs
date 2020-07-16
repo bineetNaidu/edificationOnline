@@ -1,0 +1,132 @@
+<%- include("partials/header") %>
+
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <div class="logo">
+            <span class="icon"><i class="fas fa-pen-nib"></i></span>
+        </div>
+        <h2>EDIFICATION ONLINE</h2>
+        <p>
+            ABOUT US
+        </p>
+    </div>
+</section>
+
+<!-- about us sections -->
+<section id="wrapper">
+    <!-- One -->
+    <section id="one" class="wrapper spotlight style1">
+        <div class="inner">
+            <div class="content">
+                <h2 class="major">COMMITMENT TO EXCELLENCE</h2>
+                <p>
+                    We are student centric. It is after all their lives we are
+                    trying to build. We provide free online tuitions (demo) till
+                    a student satisfactorily chooses an educator. Each batch has
+                    just one student to ensure good quality education.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper alt spotlight style2">
+        <div class="inner">
+            <div class="content">
+                <h2 class="major">DEDICATED EDUCATORS</h2>
+                <p>
+                    Learning is easier when you have an excellent teachers. Our
+                    teachers consider them to be students forever. There's no
+                    end to education so why would we stop learning? Most of our
+                    educators have achieved an advanced degree in their field.
+                    Our faculty are passionate about the subjects they teach and
+                    bring this enthusiasm into their online tuition lessons or
+                    coaching classes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Three -->
+    <section id="three" class="wrapper spotlight style3">
+        <div class="inner">
+            <div class="content">
+                <h2 class="major">FIRST-RATE CURRICULUM</h2>
+                <p>
+                    Are you a beginner, expert, or somewhere in between? Not to
+                    worry! We offer a variety of high-quality education through
+                    online tuition courses designed to prepare you for your next
+                    step. We offer placement tests and coaching classes to help
+                    match you to your skill level.
+                </p>
+            </div>
+        </div>
+    </section>
+</section>
+<!-- Footer -->
+<section id="footer">
+    <div class="inner">
+        <h2 class="major">Contact Us</h2>
+        <p>
+            Call us during during our open hours. However, if we are closed you
+            can always message us on WhatsApp!
+        </p>
+        <form method="POST" action="/contact">
+            <div class="fields">
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required />
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        name="contact_email"
+                        id="email"
+                        required
+                    />
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea
+                        name="message"
+                        id="message"
+                        rows="4"
+                        required
+                    ></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Send Message" />
+        </form>
+        <ul class="contact">
+            <li class="icon brands fa-whatsapp">
+                <a href="https://wa.me/917980001678" target="_blank"
+                    >(+91) 7980001678</a
+                >
+            </li>
+            <li class="icon solid fa-phone">
+                <a href="tel:+917980001678">(+91) 7980001678</a>
+            </li>
+            <li class="icon solid fa-envelope">
+                <a href="mailto:info@edificationonline.in"
+                    >info@edificationonline.in</a
+                >
+            </li>
+            <li class="icon brands fa-facebook-f">
+                <a href="https://facebook.com/edificationonline">edificationonline</a>
+            </li>
+            <li class="icon solid fa-sticky-note">
+                <strong>HOURS</strong>
+                <br />
+                Monday - Friday: 7:30am - 4:30pm <br />
+                Saturday - Sunday: Closed
+            </li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; EDIFICATION. All rights reserved.</li>
+            <li>Stay home, stay safe!</a></li>
+        </ul>
+    </div>
+</section>
+<%- include("partials/footer") %>
